@@ -3,9 +3,7 @@ package com.penguin.rpn;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.HashMap;
 
 /**
  * @Auther: Burt Hughes
@@ -22,28 +20,24 @@ public class RpnCalculatorTest {
      * @param expectedResult expected execution result
      */
     private void test(String lineStr, String expectedStr, int expectedResult) {
-        RpnCalculator calculator = new RpnCalculator();
-        List<String> line = new ArrayList<>(Arrays.asList(lineStr.split(" ")));
-        calculator.setLine(line);
-        int result = calculator.execute();
-        Assert.assertTrue(result == expectedResult);
-        Assert.assertTrue(calculator.getBufferString().equals(expectedStr));
+        CalculatorEngine engine = new CalculatorEngine();
+        HashMap<String, Object> result = engine.runForTest(lineStr);
+        Assert.assertEquals((int) result.get("errorCode"), expectedResult);
+        Assert.assertEquals(result.get("buffer"), expectedStr);
     }
 
     /**
      * test calculation not only once
      *
-     * @param calculator     calculator instance
+     * @param engine         calculatorEngine instance
      * @param lineStr        input line
      * @param expectedStr    expected buffer
      * @param expectedResult expected execution result
      */
-    private void testMore(RpnCalculator calculator, String lineStr, String expectedStr, int expectedResult) {
-        List<String> line = new ArrayList<>(Arrays.asList(lineStr.split(" ")));
-        calculator.setLine(line);
-        int result = calculator.execute();
-        Assert.assertTrue(result == expectedResult);
-        Assert.assertTrue(calculator.getBufferString().equals(expectedStr));
+    private void testMore(CalculatorEngine engine, String lineStr, String expectedStr, int expectedResult) {
+        HashMap<String, Object> result = engine.runForTest(lineStr);
+        Assert.assertEquals((int) result.get("errorCode"), expectedResult);
+        Assert.assertEquals(result.get("buffer"), expectedStr);
     }
 
     @Test
@@ -83,10 +77,10 @@ public class RpnCalculatorTest {
 
     @Test
     public void test08() {
-        RpnCalculator calculator = new RpnCalculator();
-        testMore(calculator, "6 5 4 3", "6 5 4 3", 0);
-        testMore(calculator, "undo undo *", "30", 0);
-        testMore(calculator, "10 *", "300", 0);
-        testMore(calculator, "undo", "30", 0);
+        CalculatorEngine engine = new CalculatorEngine();
+        testMore(engine, "6 5 4 3", "6 5 4 3", 0);
+        testMore(engine, "undo undo *", "30", 0);
+        testMore(engine, "10 *", "300", 0);
+        testMore(engine, "undo", "30", 0);
     }
 }

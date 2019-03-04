@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43d6257e-bb80-4cd7-b840-972a81f5ec3c" name="Default" comment="" />
+    <list default="true" id="43d6257e-bb80-4cd7-b840-972a81f5ec3c" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/penguin/rpn/CalculatorEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/penguin/rpn/Components.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/penguin/rpn/LogicFunction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/penguin/rpn/MemoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/penguin/rpn/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/penguin/rpn/Memory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/penguin/rpn/RpnCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/penguin/rpn/RpnCalculatorTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,24 +21,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="RpnCalculator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Memory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/Memory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="1240">
+              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,11 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MemoryTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/penguin/rpn/MemoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="185">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -64,7 +65,22 @@
       <find>secondOperand</find>
       <find>static</find>
       <find>buffer</find>
+      <find>getBuffer</find>
+      <find>getBufferString</find>
+      <find>getFormattedStr</find>
+      <find>setLine</find>
+      <find>clearLine</find>
+      <find>invalidElement</find>
+      <find>firstOperand</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="v1.0" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,6 +90,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/Memory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/Memory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/LogicFunction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/Components.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/penguin/rpn/RpnCalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/penguin/rpn/CalculatorEngine.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/penguin/rpn/MemoryTest.java" />
       </list>
     </option>
   </component>
@@ -125,34 +149,36 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPN-Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPN-Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPN-Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPN-Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPN-Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -160,23 +186,29 @@
             </path>
             <path>
               <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPN-Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPN-Calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RPN-Calculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RPN-calculator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rpn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -201,20 +233,55 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RpnCalculator">
-    <configuration name="RpnCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.penguin.rpn.RpnCalculator" />
-      <module name="RPN-Calculator" />
+  <component name="RunManager" selected="JUnit.MemoryTest.getBufferStrTest">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="MemoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPN-Calculator" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.penguin.rpn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.penguin.rpn" />
+      <option name="MAIN_CLASS_NAME" value="com.penguin.rpn.MemoryTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="MemoryTest.getBufferStrTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RPN-Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.penguin.rpn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.penguin.rpn" />
+      <option name="MAIN_CLASS_NAME" value="com.penguin.rpn.MemoryTest" />
+      <option name="METHOD_NAME" value="getBufferStrTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="RpnCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RPN-Calculator" />
@@ -324,14 +391,16 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.RpnCalculator" />
       <item itemvalue="JUnit.RpnCalculatorTest" />
       <item itemvalue="JUnit.RpnCalculatorTest.test02" />
       <item itemvalue="JUnit.RpnCalculatorTest.test03" />
+      <item itemvalue="JUnit.MemoryTest" />
+      <item itemvalue="JUnit.MemoryTest.getBufferStrTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RpnCalculator" />
+        <item itemvalue="JUnit.MemoryTest.getBufferStrTest" />
+        <item itemvalue="JUnit.MemoryTest" />
         <item itemvalue="JUnit.RpnCalculatorTest" />
         <item itemvalue="JUnit.RpnCalculatorTest.test03" />
         <item itemvalue="JUnit.RpnCalculatorTest.test02" />
@@ -339,7 +408,7 @@
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,ALPHA_COMPARATOR" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_FIELDS,VISIBILITY_SORTER" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -357,43 +426,52 @@
       <workItem from="1551442114235" duration="13507000" />
       <workItem from="1551527568422" duration="92000" />
       <workItem from="1551700789717" duration="479000" />
+      <workItem from="1551701329574" duration="8921000" />
     </task>
+    <task id="LOCAL-00001" summary="delete useless file.">
+      <created>1551702151078</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551702151078</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RpnCalculatorTest_test02 - 2019.03.01 at 21h 59m 12s.xml">
-      <configuration name="RpnCalculatorTest.test02" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RpnCalculatorTest_test03 - 2019.03.01 at 22h 04m 58s.xml">
-      <configuration name="RpnCalculatorTest.test03" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 10m 41s.xml">
-      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 13m 43s.xml">
-      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 23m 15s.xml">
-      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 24m 19s.xml">
-      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 24m 36s.xml">
-      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 32m 43s.xml">
-      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 49m 25s.xml">
       <configuration name="RpnCalculatorTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="RpnCalculatorTest - 2019.03.01 at 22h 51m 10s.xml">
       <configuration name="RpnCalculatorTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="RpnCalculatorTest - 2019.03.04 at 22h 22m 40s.xml">
+      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RpnCalculatorTest - 2019.03.04 at 22h 25m 19s.xml">
+      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RpnCalculatorTest - 2019.03.04 at 22h 26m 25s.xml">
+      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RpnCalculatorTest - 2019.03.04 at 22h 27m 14s.xml">
+      <configuration name="RpnCalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryTest - 2019.03.04 at 22h 34m 01s.xml">
+      <configuration name="MemoryTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryTest_getBufferStrTest - 2019.03.04 at 22h 35m 42s.xml">
+      <configuration name="MemoryTest.getBufferStrTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryTest_getBufferStrTest - 2019.03.04 at 22h 36m 12s.xml">
+      <configuration name="MemoryTest.getBufferStrTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MemoryTest_getBufferStrTest - 2019.03.04 at 22h 36m 46s.xml">
+      <configuration name="MemoryTest.getBufferStrTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25696000" />
+    <option name="totallyTimeSpent" value="34617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -401,28 +479,28 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.18532526" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47938144" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36316696" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.47938144" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.19587629" visible="true" weight="0.23600605" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.53184164" visible="true" weight="0.2397882" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.8041237" side_tool="true" weight="0.23600605" />
+      <window_info id="Structure" order="1" sideWeight="0.46815833" side_tool="true" weight="0.2397882" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4939759" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6374571" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -435,19 +513,49 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="delete useless file." />
+    <option name="LAST_COMMIT_MESSAGE" value="delete useless file." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="241" height="244" key="Git.Branch.Popup" />
+    <state width="241" height="244" key="Git.Branch.Popup/1366.768" />
+    <state width="241" height="244" key="Git.Branch.Popup@1366.768" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5238">
-          <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+        <state relative-caret-position="297">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/Memory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5238">
+          <caret line="194" column="24" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -525,34 +633,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/penguin/rpn/RpnCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        <state relative-caret-position="216">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.13-beta-2/junit-4.13-beta-2.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="153">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/penguin/rpn/RpnCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/Components.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding>
+            <element signature="e#673#674#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/LogicFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/CalculatorEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="42" column="49" lean-forward="true" selection-start-line="42" selection-start-column="49" selection-end-line="42" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/Memory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        <state relative-caret-position="1240">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/penguin/rpn/RpnCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/penguin/rpn/MemoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="185">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
