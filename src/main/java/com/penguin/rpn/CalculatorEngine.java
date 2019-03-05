@@ -1,5 +1,6 @@
 package com.penguin.rpn;
 
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -20,11 +21,15 @@ public class CalculatorEngine {
         while (true) {
             System.out.println("please input RPN expression: ");
             /* get user input */
-            getInput();
+            try {
+                getInput();
+            } catch (Exception e) {
+                System.out.println("Oops, an calculator error has occurred.");
+                break;
+            }
             /* execute calculation */
-            dropWhiteSpace();
             execute();
-            /* reset index and array */
+            /* clear input content */
             memory.clearInput();
         }
     }
@@ -43,26 +48,39 @@ public class CalculatorEngine {
         ret.put("buffer", memory.getBufferStr());
         return ret;
     }
+    
+    /**
+     * get calculator's memory instance.
+     * @return memory
+     */
+    public Memory getMemory() {
+        return memory;
+    }
+
+    /**
+     * get calculator's LogicFunction instance.
+     * @return LogicFunction
+     */
+    public LogicFunction getLogicFunction() {
+        return logicFunction;
+    }
 
     /**
      * get user input line.
      */
-    private void getInput() {
+    private void getInput() throws IOException
+    {
         int inputCharacter;
-        try {
-            while ((inputCharacter = System.in.read()) != -1) {
-                if (inputCharacter == 10) {
-                    break;
-                }
-                memory.addInput(String.valueOf((char) inputCharacter));
-            }
-        } catch (Exception e) {
-            System.out.println("Oops, an calculator error has occurred.");
+        while ((inputCharacter = System.in.read()) != -1) {
+            if (inputCharacter == 10) continue;
+            if (inputCharacter == 13) break;
+            memory.addInput(String.valueOf((char) inputCharacter));
         }
+        dropWhiteSpace();
     }
 
     /**
-     * drop all white space.
+     * drop all white space separator.
      */
     private void dropWhiteSpace() {
         StringBuilder temp = new StringBuilder();
