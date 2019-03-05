@@ -6,7 +6,11 @@ package com.penguin.rpn;
  * @Description: RPN Calculator entrance.
  */
 public class RpnCalculator {
-
+    
+    /**
+     * entrance of RPN Calculator
+     * @param args command line args
+     */
     public static void main(String[] args) {
         new CalculatorEngine().start();
     }

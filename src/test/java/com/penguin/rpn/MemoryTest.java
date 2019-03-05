@@ -6,10 +6,13 @@ import org.junit.Test;
 /**
  * @Auther: Burt Hughes
  * @Date: 2019/3/4 22:30
- * @Description:
+ * @Description: test Memory class
  */
 public class MemoryTest {
-
+    
+    /**
+     * test Memory.getBufferStr() method.
+     */
     @Test
     public void getBufferStrTest() {
         Memory memory = new Memory();

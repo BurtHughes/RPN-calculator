@@ -18,6 +18,9 @@ public class ComponentsTest {
         components = new Components();
     }
     
+    /**
+     * test Components.isValidComponent() method.
+     */
     @Test
     public void testIsValidComponent() {
         Assert.assertTrue(components.isValidComponent("+"));
@@ -34,6 +37,9 @@ public class ComponentsTest {
         Assert.assertFalse(components.isValidComponent(null));
     }
     
+    /**
+     * test Components.isValidOperator() method.
+     */
     @Test
     public void testIsValidOperator() {
         Assert.assertTrue(components.isValidOperator("+"));
